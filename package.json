@@ -1,0 +1,29 @@
+{
+  "name": "drag-stream",
+  "version": "0.0.1",
+  "description": "streamable mouse drag data",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "domnode-dom": "~0.0.X",
+    "through": "~1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/drag-stream.git"
+  },
+  "keywords": [
+    "readable",
+    "stream",
+    "browserify",
+    "drag"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT"
+}
