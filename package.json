@@ -10,7 +10,9 @@
     "domnode-dom": "~0.0.X",
     "through": "~1.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jsdom": "0.2.19"
+  },
   "scripts": {
     "test": "node test/index.js"
   },
