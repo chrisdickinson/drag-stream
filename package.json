@@ -1,6 +1,6 @@
 {
   "name": "drag-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "streamable mouse drag data",
   "main": "index.js",
   "directories": {

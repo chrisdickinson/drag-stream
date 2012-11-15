@@ -93,7 +93,7 @@ function test_emits_on_mousemove(ready) {
     ev = create_event('mouseup', 0, 0)
     el.dispatchEvent(ev)
 
-    assert.equal(data.length, 3)
+    assert.equal(data.length, 4)
     assert.ok(data[data.length - 1].dt >= timeout)
 
     ready()

@@ -49,6 +49,11 @@ function dragstream(el) {
 
   function on_up(ev) {
     drag.pause()
+    drag.emit('data', datum(
+        ev.screenX - anchor.x
+      , ev.screenY - anchor.y
+      , +new Date
+    ))
   }
 
   function datum(dx, dy, when) {
