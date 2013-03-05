@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "domnode-dom": "~0.0.X",
-    "through": "~1.1.1"
+    "through": "~2.2.1"
   },
   "devDependencies": {
     "jsdom": "0.2.19"
